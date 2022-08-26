@@ -69,6 +69,9 @@ const AvatarDropdown: React.FC<GlobalHeaderRightProps> = ({ menu }) => {
     return loading;
   }
 
+
+  // 测试第二个版本
+
   const menuItems: ItemType[] = [
     ...(menu
       ? [
